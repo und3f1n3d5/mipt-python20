@@ -2,7 +2,7 @@
 <html>
 <head><meta charset="utf-8" />
 
-<title>Seminar07</title>
+<title>Seminar08</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -13113,35 +13113,13 @@ div#notebook {
   <div tabindex="-1" id="notebook" class="border-box-sizing">
     <div class="container" id="notebook-container">
 
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="&#1057;&#1087;&#1077;&#1094;&#1080;&#1072;&#1083;&#1100;&#1085;&#1099;&#1077;-&#1084;&#1077;&#1090;&#1086;&#1076;&#1099;-&#1082;&#1083;&#1072;&#1089;&#1089;&#1086;&#1074;">&#1057;&#1087;&#1077;&#1094;&#1080;&#1072;&#1083;&#1100;&#1085;&#1099;&#1077; &#1084;&#1077;&#1090;&#1086;&#1076;&#1099; &#1082;&#1083;&#1072;&#1089;&#1089;&#1086;&#1074;<a class="anchor-link" href="#&#1057;&#1087;&#1077;&#1094;&#1080;&#1072;&#1083;&#1100;&#1085;&#1099;&#1077;-&#1084;&#1077;&#1090;&#1086;&#1076;&#1099;-&#1082;&#1083;&#1072;&#1089;&#1089;&#1086;&#1074;">&#182;</a></h1>
-</div>
-</div>
-</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">random</span>
-
-<span class="k">class</span> <span class="nc">Vector</span><span class="p">:</span>        
-    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
-        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;initializing a vector&quot;</span><span class="p">)</span>
-        <span class="k">if</span> <span class="nb">type</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="o">!=</span> <span class="nb">int</span> <span class="ow">or</span> <span class="nb">type</span><span class="p">(</span><span class="n">y</span><span class="p">)</span> <span class="o">!=</span> <span class="nb">int</span><span class="p">:</span>
-            <span class="k">raise</span> <span class="ne">AttributeError</span><span class="p">(</span><span class="s1">&#39;x and y should be int&#39;</span><span class="p">)</span>
-        
-        <span class="bp">self</span><span class="o">.</span><span class="n">_x</span> <span class="o">=</span> <span class="n">x</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">_y</span> <span class="o">=</span> <span class="n">y</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">_color</span> <span class="o">=</span> <span class="n">color</span>
-    
-    <span class="k">def</span> <span class="nf">get_x</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_x</span>
-    
-    <span class="k">def</span> <span class="nf">get_y</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_y</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">IPython.core.interactiveshell</span> <span class="k">import</span> <span class="n">InteractiveShell</span>
+<span class="n">InteractiveShell</span><span class="o">.</span><span class="n">ast_node_interactivity</span> <span class="o">=</span> <span class="s2">&quot;all&quot;</span>
 </pre></div>
 
     </div>
@@ -13152,8 +13130,190 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Методы с двойным подчеркиванием в начале и конце имени имеют особое значение.</p>
-<p>Мы уже знакомы с <code>__next__</code> и <code>__iter__</code>, пора узнать и об остальных</p>
+<h1 id="PYTHON-3">PYTHON 3<a class="anchor-link" href="#PYTHON-3">&#182;</a></h1><h2 id="&#1070;&#1085;&#1080;&#1090;-&#1090;&#1077;&#1089;&#1090;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1080;&#1077;">&#1070;&#1085;&#1080;&#1090;-&#1090;&#1077;&#1089;&#1090;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1080;&#1077;<a class="anchor-link" href="#&#1070;&#1085;&#1080;&#1090;-&#1090;&#1077;&#1089;&#1090;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1080;&#1077;">&#182;</a></h2><h3 id="&#1045;&#1074;&#1075;&#1077;&#1085;&#1080;&#1081;-&#1041;&#1072;&#1091;&#1083;&#1080;&#1085;">&#1045;&#1074;&#1075;&#1077;&#1085;&#1080;&#1081; &#1041;&#1072;&#1091;&#1083;&#1080;&#1085;<a class="anchor-link" href="#&#1045;&#1074;&#1075;&#1077;&#1085;&#1080;&#1081;-&#1041;&#1072;&#1091;&#1083;&#1080;&#1085;">&#182;</a></h3><p>MIPT 2020</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[43]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">nums</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">]</span>
+
+<span class="k">assert</span> <span class="nb">sum</span><span class="p">(</span><span class="n">nums</span><span class="p">)</span> <span class="o">==</span> <span class="mi">6</span><span class="p">,</span> <span class="s2">&quot;Should be 6&quot;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_text output_error">
+<pre>
+<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
+<span class="ansi-red-fg">AssertionError</span>                            Traceback (most recent call last)
+<span class="ansi-green-fg">&lt;ipython-input-43-ec81daf6fed7&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span><span class="ansi-blue-fg">()</span>
+<span class="ansi-green-intense-fg ansi-bold">      1</span> nums <span class="ansi-blue-fg">=</span> <span class="ansi-blue-fg">[</span><span class="ansi-cyan-fg">1</span><span class="ansi-blue-fg">,</span> <span class="ansi-cyan-fg">2</span><span class="ansi-blue-fg">,</span> <span class="ansi-cyan-fg">4</span><span class="ansi-blue-fg">]</span>
+<span class="ansi-green-intense-fg ansi-bold">      2</span> 
+<span class="ansi-green-fg">----&gt; 3</span><span class="ansi-red-fg"> </span><span class="ansi-green-fg">assert</span> sum<span class="ansi-blue-fg">(</span>nums<span class="ansi-blue-fg">)</span> <span class="ansi-blue-fg">==</span> <span class="ansi-cyan-fg">6</span><span class="ansi-blue-fg">,</span> <span class="ansi-blue-fg">&#34;Should be 6&#34;</span>
+
+<span class="ansi-red-fg">AssertionError</span>: Should be 6</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>В Python встроен модуль <strong>unittest</strong>, который поддерживает автоматизацию тестов, использование общего кода для настройки и завершения тестов, объединение тестов в группы, а также позволяет отделять тесты от фреймворка для вывода информации.</p>
+<p>Для автоматизации тестов, unittest поддерживает некоторые важные концепции:</p>
+<p><strong>Испытательный стенд (test fixture)</strong> - выполняется подготовка, необходимая для выполнения тестов и все необходимые действия для очистки после выполнения тестов. Это может включать, например, создание временных баз данных или запуск серверного процесса.</p>
+<p><strong>Тестовый случай (test case)</strong> - минимальный блок тестирования. Он проверяет ответы для разных наборов данных. Модуль unittest предоставляет базовый класс <strong>TestCase</strong>, который можно использовать для создания новых тестовых случаев.</p>
+<p><strong>Набор тестов (test suite)</strong> - несколько тестовых случаев, наборов тестов или и того и другого. Он используется для объединения тестов, которые должны быть выполнены вместе.</p>
+<p><strong>Исполнитель тестов (test runner)</strong> - компонент, который управляет выполнением тестов и предоставляет пользователю результат. Исполнитель может использовать графический или текстовый интерфейс или возвращать специальное значение, которое сообщает о результатах выполнения тестов.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Простой пример проверки работы строковых методов</span>
+
+<span class="kn">import</span> <span class="nn">unittest</span>
+
+<span class="k">class</span> <span class="nc">TestStringMethods</span><span class="p">(</span><span class="n">unittest</span><span class="o">.</span><span class="n">TestCase</span><span class="p">):</span>
+    <span class="c1"># тестовые методы должны начинаться с test</span>
+    <span class="k">def</span> <span class="nf">test_upper</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="s1">&#39;foo&#39;</span><span class="o">.</span><span class="n">upper</span><span class="p">(),</span> <span class="s1">&#39;FOO&#39;</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">test_isupper</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertTrue</span><span class="p">(</span><span class="s1">&#39;FOO&#39;</span><span class="o">.</span><span class="n">isupper</span><span class="p">())</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertFalse</span><span class="p">(</span><span class="s1">&#39;Foo&#39;</span><span class="o">.</span><span class="n">isupper</span><span class="p">())</span>
+
+    <span class="k">def</span> <span class="nf">test_split</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">s</span> <span class="o">=</span> <span class="s1">&#39;hello world&#39;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="n">s</span><span class="o">.</span><span class="n">split</span><span class="p">(),</span> <span class="p">[</span><span class="s1">&#39;hello&#39;</span><span class="p">,</span> <span class="s1">&#39;world&#39;</span><span class="p">])</span>
+        <span class="c1"># Проверим, что s.split не работает, если разделитель - не строка</span>
+        <span class="k">with</span> <span class="bp">self</span><span class="o">.</span><span class="n">assertRaises</span><span class="p">(</span><span class="ne">TypeError</span><span class="p">):</span>
+            <span class="n">s</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
+    
+    <span class="n">unittest</span><span class="o">.</span><span class="n">main</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_text output_error">
+<pre>
+<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
+<span class="ansi-red-fg">AttributeError</span>                            Traceback (most recent call last)
+<span class="ansi-green-fg">&lt;ipython-input-1-f489283e2fb6&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span><span class="ansi-blue-fg">()</span>
+<span class="ansi-green-intense-fg ansi-bold">     21</span> <span class="ansi-green-fg">if</span> __name__ <span class="ansi-blue-fg">==</span> <span class="ansi-blue-fg">&#39;__main__&#39;</span><span class="ansi-blue-fg">:</span>
+<span class="ansi-green-intense-fg ansi-bold">     22</span> 
+<span class="ansi-green-fg">---&gt; 23</span><span class="ansi-red-fg">     </span>unittest<span class="ansi-blue-fg">.</span>main<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">)</span>
+
+<span class="ansi-green-fg">/usr/lib/python3.4/unittest/main.py</span> in <span class="ansi-cyan-fg">__init__</span><span class="ansi-blue-fg">(self, module, defaultTest, argv, testRunner, testLoader, exit, verbosity, failfast, catchbreak, buffer, warnings)</span>
+<span class="ansi-green-intense-fg ansi-bold">     90</span>         self<span class="ansi-blue-fg">.</span>testLoader <span class="ansi-blue-fg">=</span> testLoader
+<span class="ansi-green-intense-fg ansi-bold">     91</span>         self<span class="ansi-blue-fg">.</span>progName <span class="ansi-blue-fg">=</span> os<span class="ansi-blue-fg">.</span>path<span class="ansi-blue-fg">.</span>basename<span class="ansi-blue-fg">(</span>argv<span class="ansi-blue-fg">[</span><span class="ansi-cyan-fg">0</span><span class="ansi-blue-fg">]</span><span class="ansi-blue-fg">)</span>
+<span class="ansi-green-fg">---&gt; 92</span><span class="ansi-red-fg">         </span>self<span class="ansi-blue-fg">.</span>parseArgs<span class="ansi-blue-fg">(</span>argv<span class="ansi-blue-fg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">     93</span>         self<span class="ansi-blue-fg">.</span>runTests<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">     94</span> 
+
+<span class="ansi-green-fg">/usr/lib/python3.4/unittest/main.py</span> in <span class="ansi-cyan-fg">parseArgs</span><span class="ansi-blue-fg">(self, argv)</span>
+<span class="ansi-green-intense-fg ansi-bold">    137</span>         <span class="ansi-green-fg">else</span><span class="ansi-blue-fg">:</span>
+<span class="ansi-green-intense-fg ansi-bold">    138</span>             self<span class="ansi-blue-fg">.</span>testNames <span class="ansi-blue-fg">=</span> list<span class="ansi-blue-fg">(</span>self<span class="ansi-blue-fg">.</span>defaultTest<span class="ansi-blue-fg">)</span>
+<span class="ansi-green-fg">--&gt; 139</span><span class="ansi-red-fg">         </span>self<span class="ansi-blue-fg">.</span>createTests<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">    140</span> 
+<span class="ansi-green-intense-fg ansi-bold">    141</span>     <span class="ansi-green-fg">def</span> createTests<span class="ansi-blue-fg">(</span>self<span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">:</span>
+
+<span class="ansi-green-fg">/usr/lib/python3.4/unittest/main.py</span> in <span class="ansi-cyan-fg">createTests</span><span class="ansi-blue-fg">(self)</span>
+<span class="ansi-green-intense-fg ansi-bold">    144</span>         <span class="ansi-green-fg">else</span><span class="ansi-blue-fg">:</span>
+<span class="ansi-green-intense-fg ansi-bold">    145</span>             self.test = self.testLoader.loadTestsFromNames(self.testNames,
+<span class="ansi-green-fg">--&gt; 146</span><span class="ansi-red-fg">                                                            self.module)
+</span><span class="ansi-green-intense-fg ansi-bold">    147</span> 
+<span class="ansi-green-intense-fg ansi-bold">    148</span>     <span class="ansi-green-fg">def</span> _initArgParsers<span class="ansi-blue-fg">(</span>self<span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">:</span>
+
+<span class="ansi-green-fg">/usr/lib/python3.4/unittest/loader.py</span> in <span class="ansi-cyan-fg">loadTestsFromNames</span><span class="ansi-blue-fg">(self, names, module)</span>
+<span class="ansi-green-intense-fg ansi-bold">    144</span>         of string specifiers<span class="ansi-blue-fg">.</span> See <span class="ansi-blue-fg">&#39;loadTestsFromName()&#39;</span><span class="ansi-blue-fg">.</span>
+<span class="ansi-green-intense-fg ansi-bold">    145</span>         &#34;&#34;&#34;
+<span class="ansi-green-fg">--&gt; 146</span><span class="ansi-red-fg">         </span>suites <span class="ansi-blue-fg">=</span> <span class="ansi-blue-fg">[</span>self<span class="ansi-blue-fg">.</span>loadTestsFromName<span class="ansi-blue-fg">(</span>name<span class="ansi-blue-fg">,</span> module<span class="ansi-blue-fg">)</span> <span class="ansi-green-fg">for</span> name <span class="ansi-green-fg">in</span> names<span class="ansi-blue-fg">]</span>
+<span class="ansi-green-intense-fg ansi-bold">    147</span>         <span class="ansi-green-fg">return</span> self<span class="ansi-blue-fg">.</span>suiteClass<span class="ansi-blue-fg">(</span>suites<span class="ansi-blue-fg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">    148</span> 
+
+<span class="ansi-green-fg">/usr/lib/python3.4/unittest/loader.py</span> in <span class="ansi-cyan-fg">&lt;listcomp&gt;</span><span class="ansi-blue-fg">(.0)</span>
+<span class="ansi-green-intense-fg ansi-bold">    144</span>         of string specifiers<span class="ansi-blue-fg">.</span> See <span class="ansi-blue-fg">&#39;loadTestsFromName()&#39;</span><span class="ansi-blue-fg">.</span>
+<span class="ansi-green-intense-fg ansi-bold">    145</span>         &#34;&#34;&#34;
+<span class="ansi-green-fg">--&gt; 146</span><span class="ansi-red-fg">         </span>suites <span class="ansi-blue-fg">=</span> <span class="ansi-blue-fg">[</span>self<span class="ansi-blue-fg">.</span>loadTestsFromName<span class="ansi-blue-fg">(</span>name<span class="ansi-blue-fg">,</span> module<span class="ansi-blue-fg">)</span> <span class="ansi-green-fg">for</span> name <span class="ansi-green-fg">in</span> names<span class="ansi-blue-fg">]</span>
+<span class="ansi-green-intense-fg ansi-bold">    147</span>         <span class="ansi-green-fg">return</span> self<span class="ansi-blue-fg">.</span>suiteClass<span class="ansi-blue-fg">(</span>suites<span class="ansi-blue-fg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">    148</span> 
+
+<span class="ansi-green-fg">/usr/lib/python3.4/unittest/loader.py</span> in <span class="ansi-cyan-fg">loadTestsFromName</span><span class="ansi-blue-fg">(self, name, module)</span>
+<span class="ansi-green-intense-fg ansi-bold">    112</span>         obj <span class="ansi-blue-fg">=</span> module
+<span class="ansi-green-intense-fg ansi-bold">    113</span>         <span class="ansi-green-fg">for</span> part <span class="ansi-green-fg">in</span> parts<span class="ansi-blue-fg">:</span>
+<span class="ansi-green-fg">--&gt; 114</span><span class="ansi-red-fg">             </span>parent<span class="ansi-blue-fg">,</span> obj <span class="ansi-blue-fg">=</span> obj<span class="ansi-blue-fg">,</span> getattr<span class="ansi-blue-fg">(</span>obj<span class="ansi-blue-fg">,</span> part<span class="ansi-blue-fg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">    115</span> 
+<span class="ansi-green-intense-fg ansi-bold">    116</span>         <span class="ansi-green-fg">if</span> isinstance<span class="ansi-blue-fg">(</span>obj<span class="ansi-blue-fg">,</span> types<span class="ansi-blue-fg">.</span>ModuleType<span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">:</span>
+
+<span class="ansi-red-fg">AttributeError</span>: &#39;module&#39; object has no attribute &#39;/run/user/1000/jupyter/kernel-9979293a-7a0b-4a1d-a874-c7be47f2fb46&#39;</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Сохраним код на будущее</span>
+
+<span class="k">def</span> <span class="nf">dump_to</span><span class="p">(</span><span class="n">path</span><span class="p">):</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+        <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">_i</span><span class="p">)</span>  <span class="c1"># _i это &quot;последний выполненный Input&quot; в iPython</span>
+        
+<span class="n">dump_to</span><span class="p">(</span><span class="s1">&#39;strings.py&#39;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#1059;&#1087;&#1089;..-&#1055;&#1086;&#1076;&#1088;&#1091;&#1078;&#1080;&#1084;-unittest-&#1089;-jupyter-notebook:">&#1059;&#1087;&#1089;.. &#1055;&#1086;&#1076;&#1088;&#1091;&#1078;&#1080;&#1084; unittest &#1089; jupyter notebook:<a class="anchor-link" href="#&#1059;&#1087;&#1089;..-&#1055;&#1086;&#1076;&#1088;&#1091;&#1078;&#1080;&#1084;-unittest-&#1089;-jupyter-notebook:">&#182;</a></h2><p>Q: А что случилось?</p>
+<p>A: The reason is that unittest.main looks at sys.argv and first parameter is what started IPython or Jupyter, therefore the error about kernel connection file not being a valid attribute. Passing explicit list to unittest.main will prevent IPython and Jupyter look at sys.argv. Passing exit=False will prevent unittest.main to shutdown the kernell process</p>
 
 </div>
 </div>
@@ -13163,8 +13323,72 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">vector</span> <span class="o">=</span> <span class="n">Vector</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="s1">&#39;red&#39;</span><span class="p">)</span>
-<span class="nb">str</span><span class="p">(</span><span class="n">vector</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Простой пример проверки работы строковых методов</span>
+
+<span class="k">class</span> <span class="nc">TestStringMethods</span><span class="p">(</span><span class="n">unittest</span><span class="o">.</span><span class="n">TestCase</span><span class="p">):</span>
+    <span class="c1"># тестовые методы должны начинаться с test</span>
+    <span class="k">def</span> <span class="nf">test_upper</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="s1">&#39;foo&#39;</span><span class="o">.</span><span class="n">upper</span><span class="p">(),</span> <span class="s1">&#39;FOO&#39;</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">test_isupper</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertTrue</span><span class="p">(</span><span class="s1">&#39;FOO&#39;</span><span class="o">.</span><span class="n">isupper</span><span class="p">())</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertFalse</span><span class="p">(</span><span class="s1">&#39;Foo&#39;</span><span class="o">.</span><span class="n">isupper</span><span class="p">())</span>
+
+    <span class="k">def</span> <span class="nf">test_split</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">s</span> <span class="o">=</span> <span class="s1">&#39;hello world&#39;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="n">s</span><span class="o">.</span><span class="n">split</span><span class="p">(),</span> <span class="p">[</span><span class="s1">&#39;hello&#39;</span><span class="p">,</span> <span class="s1">&#39;world&#39;</span><span class="p">])</span>
+        <span class="c1"># Проверим, что s.split не работает, если разделитель - не строка</span>
+        <span class="k">with</span> <span class="bp">self</span><span class="o">.</span><span class="n">assertRaises</span><span class="p">(</span><span class="ne">TypeError</span><span class="p">):</span>
+            <span class="n">s</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
+
+    <span class="n">unittest</span><span class="o">.</span><span class="n">main</span><span class="p">(</span><span class="n">argv</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;first-arg-is-ignored&#39;</span><span class="p">],</span> <span class="n">exit</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+    
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>...
+----------------------------------------------------------------------
+Ran 3 tests in 0.006s
+
+OK
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#1048;&#1085;&#1090;&#1077;&#1088;&#1092;&#1077;&#1081;&#1089;-&#1082;&#1086;&#1084;&#1072;&#1085;&#1076;&#1085;&#1086;&#1081;-&#1089;&#1090;&#1088;&#1086;&#1082;&#1080;">&#1048;&#1085;&#1090;&#1077;&#1088;&#1092;&#1077;&#1081;&#1089; &#1082;&#1086;&#1084;&#1072;&#1085;&#1076;&#1085;&#1086;&#1081; &#1089;&#1090;&#1088;&#1086;&#1082;&#1080;<a class="anchor-link" href="#&#1048;&#1085;&#1090;&#1077;&#1088;&#1092;&#1077;&#1081;&#1089;-&#1082;&#1086;&#1084;&#1072;&#1085;&#1076;&#1085;&#1086;&#1081;-&#1089;&#1090;&#1088;&#1086;&#1082;&#1080;">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>python3 -m unittest strings                               # модуль
+<span class="o">!</span>python3 -m unittest strings.TestStringMethods             # класс
+<span class="o">!</span>python3 -m unittest strings.TestStringMethods.test_split  # метод
 </pre></div>
 
     </div>
@@ -13181,39 +13405,25 @@ div#notebook {
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>initializing a vector
+<pre>...
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+OK
+...
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
 </pre>
 </div>
 </div>
 
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[3]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>&#39;&lt;__main__.Vector object at 0x7ff9fc87f940&gt;&#39;</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">VectorWithStr</span><span class="p">(</span><span class="n">Vector</span><span class="p">):</span>
-    <span class="k">def</span> <span class="nf">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="k">return</span> <span class="s1">&#39;vector (</span><span class="si">{}</span><span class="s1">, </span><span class="si">{}</span><span class="s1">) of color </span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_x</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_y</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_color</span><span class="p">)</span>
-</pre></div>
-
-    </div>
 </div>
 </div>
 
@@ -13223,8 +13433,8 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">vector</span> <span class="o">=</span> <span class="n">VectorWithStr</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="s1">&#39;red&#39;</span><span class="p">)</span>
-<span class="nb">str</span><span class="p">(</span><span class="n">vector</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#С помощью флага -v можно получить более детальный отчёт:</span>
+<span class="o">!</span>python3 -m unittest -v strings
 </pre></div>
 
     </div>
@@ -13241,22 +13451,16 @@ div#notebook {
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>initializing a vector
+<pre>test_isupper (strings.TestStringMethods) ... ok
+test_split (strings.TestStringMethods) ... ok
+test_upper (strings.TestStringMethods) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.001s
+
+OK
 </pre>
 </div>
-</div>
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[5]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>&#39;vector (1, 2) of color red&#39;</pre>
-</div>
-
 </div>
 
 </div>
@@ -13266,8 +13470,19 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Q:</strong> Преобразование в строку? Это всё?</p>
-<p><strong>A:</strong> Конечно, нет. Неявные преобразования иногда происходят там, где мы их не ожидаем</p>
+<h2 id="&#1045;&#1097;&#1105;-&#1092;&#1083;&#1072;&#1075;&#1080;:">&#1045;&#1097;&#1105; &#1092;&#1083;&#1072;&#1075;&#1080;:<a class="anchor-link" href="#&#1045;&#1097;&#1105;-&#1092;&#1083;&#1072;&#1075;&#1080;:">&#182;</a></h2><p>-b (--buffer) - вывод программы при провале теста будет показан, а не скрыт, как обычно.</p>
+<p>-c (--catch) - Ctrl+C во время выполнения теста ожидает завершения текущего теста и затем сообщает результаты на данный момент. Второе нажатие Ctrl+C вызывает обычное исключение KeyboardInterrupt.</p>
+<p>-f (--failfast) - выход после первого же неудачного теста.</p>
+<p>--locals (начиная с Python 3.5) - показывать локальные переменные для провалившихся тестов.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&#1054;&#1073;&#1085;&#1072;&#1088;&#1091;&#1078;&#1077;&#1085;&#1080;&#1077;-&#1090;&#1077;&#1089;&#1090;&#1086;&#1074;">&#1054;&#1073;&#1085;&#1072;&#1088;&#1091;&#1078;&#1077;&#1085;&#1080;&#1077; &#1090;&#1077;&#1089;&#1090;&#1086;&#1074;<a class="anchor-link" href="#&#1054;&#1073;&#1085;&#1072;&#1088;&#1091;&#1078;&#1077;&#1085;&#1080;&#1077;-&#1090;&#1077;&#1089;&#1090;&#1086;&#1074;">&#182;</a></h2><p>unittest поддерживает простое обнаружение тестов. Для совместимости с обнаружением тестов, все файлы тестов должны быть модулями или пакетами, импортируемыми из директории верхнего уровня проекта (<a href="https://pythonworld.ru/osnovy/rabota-s-modulyami-sozdanie-podklyuchenie-instrukciyami-import-i-from.html#id3">см. подробнее о правилах наименования модулей</a>).</p>
+<p>Обнаружение тестов реализовано в TestLoader.discover(), но может быть использовано из командной строки:</p>
 
 </div>
 </div>
@@ -13277,7 +13492,13 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">vector</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>mv strings.py test_strings.py  #чтобы сработало переименуем модуль в test....py
+<span class="o">!</span>python3 -m  unittest  discover
+
+<span class="c1">#-v (--verbose) - подробный вывод.</span>
+<span class="c1">#-s (--start-directory) directory_name - директория начала обнаружения тестов (текущая по умолчанию).</span>
+<span class="c1">#-p (--pattern) pattern - шаблон названия файлов с тестами (по умолчанию test*.py).</span>
+<span class="c1">#-t (--top-level-directory) directory_name - директория верхнего уровня проекта (по умолчанию равна start-directory).</span>
 </pre></div>
 
     </div>
@@ -13294,77 +13515,11 @@ div#notebook {
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>vector (1, 2) of color red
-</pre>
-</div>
-</div>
+<pre>...
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
 
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">mydict</span> <span class="o">=</span> <span class="p">{}</span>
-<span class="n">mydict</span><span class="p">[</span><span class="n">vector</span><span class="p">]</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
-<span class="ansi-red-fg">KeyError</span>                                  Traceback (most recent call last)
-<span class="ansi-green-fg">&lt;ipython-input-7-d9f5ce0c6c45&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span><span class="ansi-blue-fg">()</span>
-<span class="ansi-green-intense-fg ansi-bold">      1</span> mydict <span class="ansi-blue-fg">=</span> <span class="ansi-blue-fg">{</span><span class="ansi-blue-fg">}</span>
-<span class="ansi-green-fg">----&gt; 2</span><span class="ansi-red-fg"> </span>mydict<span class="ansi-blue-fg">[</span>vector<span class="ansi-blue-fg">]</span>
-
-<span class="ansi-red-fg">KeyError</span>: &lt;__main__.VectorWithStr object at 0x7ff9fc87f5c0&gt;</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">mylist</span> <span class="o">=</span> <span class="p">[</span><span class="n">vector</span><span class="p">]</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">mylist</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>[&lt;__main__.VectorWithStr object at 0x7ff9fc87f5c0&gt;]
+OK
 </pre>
 </div>
 </div>
@@ -13376,173 +13531,28 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Q:</strong> А откуда опять "некрасивые" строки?!</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>A:</strong> В питоне используется два способа приведения к строке. Это функции <code>str</code> и <code>repr</code>, которые отличаются своим назначением.</p>
-<p><code>str</code> используется там, где нужна человекочитаемость, а <code>repr</code> реализуется так, чтобы можно было однозначно определить, о каком объекте идет речь. Если <code>repr</code> не реализован, используется стандартный вариант, а если не реализован <code>str</code>, то вместо него используется <code>repr</code>.</p>
-<p>Попробуем?</p>
-
+<h2 id="&#1054;&#1088;&#1075;&#1072;&#1085;&#1080;&#1079;&#1072;&#1094;&#1080;&#1103;-&#1090;&#1077;&#1089;&#1090;&#1086;&#1074;&#1086;&#1075;&#1086;-&#1082;&#1086;&#1076;&#1072;">&#1054;&#1088;&#1075;&#1072;&#1085;&#1080;&#1079;&#1072;&#1094;&#1080;&#1103; &#1090;&#1077;&#1089;&#1090;&#1086;&#1074;&#1086;&#1075;&#1086; &#1082;&#1086;&#1076;&#1072;<a class="anchor-link" href="#&#1054;&#1088;&#1075;&#1072;&#1085;&#1080;&#1079;&#1072;&#1094;&#1080;&#1103;-&#1090;&#1077;&#1089;&#1090;&#1086;&#1074;&#1086;&#1075;&#1086;-&#1082;&#1086;&#1076;&#1072;">&#182;</a></h2>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[46]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">VectorWithRepr</span><span class="p">(</span><span class="n">Vector</span><span class="p">):</span>
-    <span class="k">def</span> <span class="nf">__repr__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="k">return</span> <span class="s1">&#39;vector representation (x: </span><span class="si">{}</span><span class="s1">, y: </span><span class="si">{}</span><span class="s1">, color: </span><span class="si">{}</span><span class="s1">)&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_x</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_y</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_color</span><span class="p">)</span>
-</pre></div>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Создадим класс, который будем тестировать</span>
 
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">vector</span> <span class="o">=</span> <span class="n">VectorWithRepr</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="s1">&#39;red&#39;</span><span class="p">)</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="n">vector</span><span class="p">)</span>
-<span class="n">mylist</span> <span class="o">=</span> <span class="p">[</span><span class="n">vector</span><span class="p">]</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">mylist</span><span class="p">)</span>
-<span class="n">mydict</span> <span class="o">=</span> <span class="p">{}</span>
-<span class="n">mydict</span><span class="p">[</span><span class="n">vector</span><span class="p">]</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>initializing a vector
-vector representation (x: 1, y: 2, color: red)
-[vector representation (x: 1, y: 2, color: red)]
-</pre>
-</div>
-</div>
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
-<span class="ansi-red-fg">KeyError</span>                                  Traceback (most recent call last)
-<span class="ansi-green-fg">&lt;ipython-input-10-54527515abe6&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span><span class="ansi-blue-fg">()</span>
-<span class="ansi-green-intense-fg ansi-bold">      5</span> print<span class="ansi-blue-fg">(</span>mylist<span class="ansi-blue-fg">)</span>
-<span class="ansi-green-intense-fg ansi-bold">      6</span> mydict <span class="ansi-blue-fg">=</span> <span class="ansi-blue-fg">{</span><span class="ansi-blue-fg">}</span>
-<span class="ansi-green-fg">----&gt; 7</span><span class="ansi-red-fg"> </span>mydict<span class="ansi-blue-fg">[</span>vector<span class="ansi-blue-fg">]</span>
-
-<span class="ansi-red-fg">KeyError</span>: vector representation (x: 1, y: 2, color: red)</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">VectorWithBothReprAndStr</span><span class="p">(</span><span class="n">VectorWithRepr</span><span class="p">,</span> <span class="n">VectorWithStr</span><span class="p">):</span>
-    <span class="k">pass</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">vector</span> <span class="o">=</span> <span class="n">VectorWithBothReprAndStr</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="s1">&#39;red&#39;</span><span class="p">)</span>
-<span class="c1"># вот здесь должны получиться разные значения</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">vector</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">([</span><span class="n">vector</span><span class="p">])</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>initializing a vector
-vector (1, 2) of color red
-[vector representation (x: 1, y: 2, color: red)]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="&#1040;&#1088;&#1080;&#1092;&#1084;&#1077;&#1090;&#1080;&#1082;&#1072;">&#1040;&#1088;&#1080;&#1092;&#1084;&#1077;&#1090;&#1080;&#1082;&#1072;<a class="anchor-link" href="#&#1040;&#1088;&#1080;&#1092;&#1084;&#1077;&#1090;&#1080;&#1082;&#1072;">&#182;</a></h2>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">math</span>
-<span class="kn">import</span> <span class="nn">random</span>
-
-<span class="k">class</span> <span class="nc">VectorWithMath</span><span class="p">(</span><span class="n">VectorWithBothReprAndStr</span><span class="p">):</span>    
-    <span class="k">def</span> <span class="nf">__abs__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="k">return</span> <span class="n">math</span><span class="o">.</span><span class="n">hypot</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_x</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_y</span><span class="p">)</span>
+<span class="k">class</span> <span class="nc">Widget</span><span class="p">():</span>
     
-    <span class="k">def</span> <span class="nf">__add__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">other</span><span class="p">):</span>
-        <span class="k">return</span> <span class="n">VectorWithMath</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">get_x</span><span class="p">()</span> <span class="o">+</span> <span class="n">other</span><span class="o">.</span><span class="n">get_x</span><span class="p">(),</span>
-                     <span class="bp">self</span><span class="o">.</span><span class="n">get_y</span><span class="p">()</span> <span class="o">+</span> <span class="n">other</span><span class="o">.</span><span class="n">get_y</span><span class="p">(),</span>
-                     <span class="n">random</span><span class="o">.</span><span class="n">choice</span><span class="p">((</span><span class="nb">str</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_color</span><span class="p">),</span> <span class="nb">str</span><span class="p">(</span><span class="n">other</span><span class="o">.</span><span class="n">_color</span><span class="p">))))</span>
-    
-    <span class="k">def</span> <span class="nf">__sub__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">other</span><span class="p">):</span>
-        <span class="k">return</span> <span class="n">VectorWithMath</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">get_x</span><span class="p">()</span> <span class="o">-</span> <span class="n">other</span><span class="o">.</span><span class="n">get_x</span><span class="p">(),</span>
-                     <span class="bp">self</span><span class="o">.</span><span class="n">get_y</span><span class="p">()</span> <span class="o">-</span> <span class="n">other</span><span class="o">.</span><span class="n">get_y</span><span class="p">(),</span>
-                     <span class="n">random</span><span class="o">.</span><span class="n">choice</span><span class="p">((</span><span class="nb">str</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_color</span><span class="p">),</span> <span class="nb">str</span><span class="p">(</span><span class="n">other</span><span class="o">.</span><span class="n">_color</span><span class="p">))))</span>
-    
-    <span class="c1"># ещё есть div, mul и многое другое</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">x</span> <span class="o">=</span> <span class="mi">50</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="mi">50</span><span class="p">):</span>
+        
+        <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">x</span> <span class="o">=</span> <span class="n">x</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">y</span> <span class="o">=</span> <span class="n">y</span>
+        
+    <span class="k">def</span> <span class="nf">size</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        
+        <span class="k">return</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">x</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">y</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -13550,15 +13560,30 @@ vector (1, 2) of color red
 </div>
 
 </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Базовые блоки тестирования это тестовые случаи - простые случаи, которые должны быть проверены на корректность.</p>
+<p>Тестовый случай создаётся путём наследования от unittest.TestCase.</p>
+<p>Тестирующий код должен быть самостоятельным, то есть никак не зависеть от других тестов.</p>
+<p>Простейший подкласс TestCase может просто реализовывать тестовый метод (метод, начинающийся с test)</p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[47]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">vector1</span> <span class="o">=</span> <span class="n">VectorWithMath</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="s1">&#39;blue&#39;</span><span class="p">)</span>
-<span class="n">vector2</span> <span class="o">=</span> <span class="n">VectorWithMath</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="s1">&#39;red&#39;</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">vector1</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">vector2</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">DefaultWidgetSizeTestCase</span><span class="p">(</span><span class="n">unittest</span><span class="o">.</span><span class="n">TestCase</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">test_default_widget_size</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">widget</span> <span class="o">=</span> <span class="n">Widget</span><span class="p">(</span><span class="s1">&#39;The widget&#39;</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="n">widget</span><span class="o">.</span><span class="n">size</span><span class="p">(),</span> <span class="p">(</span><span class="mi">50</span><span class="p">,</span> <span class="mi">50</span><span class="p">))</span>
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
+
+    <span class="n">unittest</span><span class="o">.</span><span class="n">main</span><span class="p">(</span><span class="n">argv</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;&#39;</span><span class="p">,],</span> <span class="n">defaultTest</span><span class="o">=</span><span class="s1">&#39;DefaultWidgetSizeTestCase&#39;</span><span class="p">,</span> <span class="n">exit</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -13574,48 +13599,12 @@ vector (1, 2) of color red
     <div class="prompt"></div>
 
 
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>initializing a vector
-initializing a vector
-vector (3, 4) of color blue
-vector (1, 2) of color red
-</pre>
-</div>
-</div>
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>.
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
 
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="nb">abs</span><span class="p">(</span><span class="n">vector1</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">vector1</span> <span class="o">+</span> <span class="n">vector2</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">vector1</span> <span class="o">-</span> <span class="n">vector2</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>5.0
-initializing a vector
-vector (4, 6) of color blue
-initializing a vector
-vector (2, 2) of color red
+OK
 </pre>
 </div>
 </div>
@@ -13627,44 +13616,36 @@ vector (2, 2) of color red
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="&#1055;&#1088;&#1080;&#1074;&#1077;&#1076;&#1077;&#1085;&#1080;&#1077;-&#1090;&#1080;&#1087;&#1086;&#1074;">&#1055;&#1088;&#1080;&#1074;&#1077;&#1076;&#1077;&#1085;&#1080;&#1077; &#1090;&#1080;&#1087;&#1086;&#1074;<a class="anchor-link" href="#&#1055;&#1088;&#1080;&#1074;&#1077;&#1076;&#1077;&#1085;&#1080;&#1077;-&#1090;&#1080;&#1087;&#1086;&#1074;">&#182;</a></h2>
+<p>Тестов может быть много, и часть кода настройки может повторяться. К счастью, мы можем определить код настройки путём реализации метода <strong>setUp()</strong>, который будет запускаться <em>перед</em> каждым тестом.</p>
+<p>Мы также можем определить метод <strong>tearDown()</strong>, который будет запускаться <em>после</em> каждого теста.</p>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[48]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">math</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">SimpleWidgetTestCase</span><span class="p">(</span><span class="n">unittest</span><span class="o">.</span><span class="n">TestCase</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">setUp</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">widget</span> <span class="o">=</span> <span class="n">Widget</span><span class="p">(</span><span class="s1">&#39;The widget&#39;</span><span class="p">)</span>
 
-<span class="k">class</span> <span class="nc">VectorWithTypes</span><span class="p">(</span><span class="n">VectorWithMath</span><span class="p">):</span>
-    <span class="k">def</span> <span class="nf">__bool__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="k">return</span> <span class="nb">bool</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_x</span><span class="p">)</span> <span class="ow">or</span> <span class="nb">bool</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_y</span><span class="p">)</span>
-    
-    <span class="k">def</span> <span class="nf">__int__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="k">return</span> <span class="nb">int</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="bp">self</span><span class="p">))</span>
-    
-    <span class="k">def</span> <span class="nf">__float__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="k">return</span> <span class="nb">abs</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
-</pre></div>
+    <span class="k">def</span> <span class="nf">test_default_widget_size</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">widget</span><span class="o">.</span><span class="n">size</span><span class="p">(),</span> <span class="p">(</span><span class="mi">50</span><span class="p">,</span><span class="mi">50</span><span class="p">),</span>
+                         <span class="s1">&#39;incorrect default size&#39;</span><span class="p">)</span>
 
-    </div>
-</div>
-</div>
+    <span class="k">def</span> <span class="nf">test_widget_resize</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">widget</span><span class="o">.</span><span class="n">resize</span><span class="p">(</span><span class="mi">100</span><span class="p">,</span><span class="mi">150</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">widget</span><span class="o">.</span><span class="n">size</span><span class="p">(),</span> <span class="p">(</span><span class="mi">100</span><span class="p">,</span><span class="mi">150</span><span class="p">),</span>
+                         <span class="s1">&#39;wrong size after resize&#39;</span><span class="p">)</span>
+        
+    <span class="k">def</span> <span class="nf">tearDown</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">pass</span>
+        
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
 
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">vector</span> <span class="o">=</span> <span class="n">VectorWithTypes</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="s1">&#39;blue&#39;</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">vector</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">vector</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="n">vector</span><span class="p">))</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;vector ~ True&quot;</span><span class="p">)</span> <span class="k">if</span> <span class="n">vector</span> <span class="k">else</span> <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;vector ~ False&quot;</span><span class="p">)</span>
+    <span class="n">unittest</span><span class="o">.</span><span class="n">main</span><span class="p">(</span><span class="n">argv</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;&#39;</span><span class="p">,],</span> <span class="n">defaultTest</span><span class="o">=</span><span class="s1">&#39;SimpleWidgetTestCase&#39;</span><span class="p">,</span> <span class="n">exit</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -13680,48 +13661,12 @@ vector (2, 2) of color red
     <div class="prompt"></div>
 
 
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>initializing a vector
-vector (3, 4) of color blue
-5
-5.0
-vector ~ True
-</pre>
-</div>
-</div>
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>..
+----------------------------------------------------------------------
+Ran 2 tests in 0.004s
 
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">vector</span> <span class="o">=</span> <span class="n">VectorWithTypes</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">vector</span><span class="p">)</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;vector ~ True&quot;</span><span class="p">)</span> <span class="k">if</span> <span class="n">vector</span> <span class="k">else</span> <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;vector ~ False&quot;</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>initializing a vector
-vector (0, 0) of color None
-vector ~ False
+OK
 </pre>
 </div>
 </div>
@@ -13733,177 +13678,25 @@ vector ~ False
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="&#1048;&#1090;&#1077;&#1088;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1080;&#1077;">&#1048;&#1090;&#1077;&#1088;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1080;&#1077;<a class="anchor-link" href="#&#1048;&#1090;&#1077;&#1088;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1080;&#1077;">&#182;</a></h2>
+<p>Можно разместить все тесты в том же файле, что и сама программа (таком как widgets.py), но размещение тестов в отдельном файле (таком как test_widget.py) имеет много преимуществ:</p>
+<ul>
+<li>Модуль с тестом может быть запущен автономно из командной строки.</li>
+<li>Тестовый код может быть легко отделён от программы.</li>
+<li>Меньше искушения изменить тесты для соответствия коду программы без видимой причины.</li>
+<li>Тестовый код должен изменяться гораздо реже, чем программа.</li>
+<li>Протестированный код может быть легче переработан.</li>
+<li>Тесты для модулей на C должны быть в отдельных модулях, так почему же не быть последовательным?</li>
+<li>Если стратегия тестирования изменяется, нет необходимости изменения кода программы.</li>
+</ul>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Один способ сделать объект "итерабельным" нам уже известен, это метод <code>__next__</code>. Но он не единственный</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">VectorIterable</span><span class="p">(</span><span class="n">VectorWithTypes</span><span class="p">):</span>
-    <span class="k">def</span> <span class="nf">__getitem__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">position</span><span class="p">):</span>
-        <span class="k">return</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_x</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_y</span><span class="p">)[</span><span class="n">position</span><span class="p">]</span>
-    
-    <span class="k">def</span> <span class="nf">__len__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="k">return</span> <span class="mi">2</span>
-    
-    <span class="k">def</span> <span class="nf">__reversed__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="k">return</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_x</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">_y</span><span class="p">)[::</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">vector</span> <span class="o">=</span> <span class="n">VectorIterable</span><span class="p">(</span><span class="mi">100</span><span class="p">,</span> <span class="mi">500</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">vector</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">vector</span><span class="p">[</span><span class="mi">3</span><span class="p">])</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>initializing a vector
-100
-</pre>
-</div>
-</div>
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
-<span class="ansi-red-fg">IndexError</span>                                Traceback (most recent call last)
-<span class="ansi-green-fg">&lt;ipython-input-20-a685dc0a6340&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span><span class="ansi-blue-fg">()</span>
-<span class="ansi-green-intense-fg ansi-bold">      1</span> vector <span class="ansi-blue-fg">=</span> VectorIterable<span class="ansi-blue-fg">(</span><span class="ansi-cyan-fg">100</span><span class="ansi-blue-fg">,</span> <span class="ansi-cyan-fg">500</span><span class="ansi-blue-fg">)</span>
-<span class="ansi-green-intense-fg ansi-bold">      2</span> print<span class="ansi-blue-fg">(</span>vector<span class="ansi-blue-fg">[</span><span class="ansi-cyan-fg">0</span><span class="ansi-blue-fg">]</span><span class="ansi-blue-fg">)</span>
-<span class="ansi-green-fg">----&gt; 3</span><span class="ansi-red-fg"> </span>print<span class="ansi-blue-fg">(</span>vector<span class="ansi-blue-fg">[</span><span class="ansi-cyan-fg">3</span><span class="ansi-blue-fg">]</span><span class="ansi-blue-fg">)</span>
-
-<span class="ansi-green-fg">&lt;ipython-input-19-cc85d11efb1c&gt;</span> in <span class="ansi-cyan-fg">__getitem__</span><span class="ansi-blue-fg">(self, position)</span>
-<span class="ansi-green-intense-fg ansi-bold">      1</span> <span class="ansi-green-fg">class</span> VectorIterable<span class="ansi-blue-fg">(</span>VectorWithTypes<span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">:</span>
-<span class="ansi-green-intense-fg ansi-bold">      2</span>     <span class="ansi-green-fg">def</span> __getitem__<span class="ansi-blue-fg">(</span>self<span class="ansi-blue-fg">,</span> position<span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">:</span>
-<span class="ansi-green-fg">----&gt; 3</span><span class="ansi-red-fg">         </span><span class="ansi-green-fg">return</span> <span class="ansi-blue-fg">(</span>self<span class="ansi-blue-fg">.</span>_x<span class="ansi-blue-fg">,</span> self<span class="ansi-blue-fg">.</span>_y<span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">[</span>position<span class="ansi-blue-fg">]</span>
-<span class="ansi-green-intense-fg ansi-bold">      4</span> 
-<span class="ansi-green-intense-fg ansi-bold">      5</span>     <span class="ansi-green-fg">def</span> __len__<span class="ansi-blue-fg">(</span>self<span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">:</span>
-
-<span class="ansi-red-fg">IndexError</span>: tuple index out of range</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[21]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># for вызывает __getitem__ ТОЛЬКО если у класса отсутствует __next__ или __iter__ </span>
-
-<span class="k">for</span> <span class="n">coordinate</span> <span class="ow">in</span> <span class="n">vector</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">coordinate</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>100
-500
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[22]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">coordinate</span> <span class="ow">in</span> <span class="nb">reversed</span><span class="p">(</span><span class="n">vector</span><span class="p">):</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">coordinate</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>500
-100
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="&#1044;&#1080;&#1085;&#1072;&#1084;&#1080;&#1095;&#1077;&#1089;&#1082;&#1072;&#1103;-&#1088;&#1072;&#1073;&#1086;&#1090;&#1072;-&#1089;-&#1072;&#1090;&#1088;&#1080;&#1073;&#1091;&#1090;&#1072;&#1084;&#1080;">&#1044;&#1080;&#1085;&#1072;&#1084;&#1080;&#1095;&#1077;&#1089;&#1082;&#1072;&#1103; &#1088;&#1072;&#1073;&#1086;&#1090;&#1072; &#1089; &#1072;&#1090;&#1088;&#1080;&#1073;&#1091;&#1090;&#1072;&#1084;&#1080;<a class="anchor-link" href="#&#1044;&#1080;&#1085;&#1072;&#1084;&#1080;&#1095;&#1077;&#1089;&#1082;&#1072;&#1103;-&#1088;&#1072;&#1073;&#1086;&#1090;&#1072;-&#1089;-&#1072;&#1090;&#1088;&#1080;&#1073;&#1091;&#1090;&#1072;&#1084;&#1080;">&#182;</a></h2>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Казалось бы, в питоне нет никакой защиты от "взлома". Но нельзя ли сделать её самостоятельно?</p>
+<h2 id="&#1055;&#1088;&#1086;&#1087;&#1091;&#1089;&#1082;-&#1090;&#1077;&#1089;&#1090;&#1086;&#1074;-&#1080;-&#1086;&#1078;&#1080;&#1076;&#1072;&#1077;&#1084;&#1099;&#1077;-&#1086;&#1096;&#1080;&#1073;&#1082;&#1080;">&#1055;&#1088;&#1086;&#1087;&#1091;&#1089;&#1082; &#1090;&#1077;&#1089;&#1090;&#1086;&#1074; &#1080; &#1086;&#1078;&#1080;&#1076;&#1072;&#1077;&#1084;&#1099;&#1077; &#1086;&#1096;&#1080;&#1073;&#1082;&#1080;<a class="anchor-link" href="#&#1055;&#1088;&#1086;&#1087;&#1091;&#1089;&#1082;-&#1090;&#1077;&#1089;&#1090;&#1086;&#1074;-&#1080;-&#1086;&#1078;&#1080;&#1076;&#1072;&#1077;&#1084;&#1099;&#1077;-&#1086;&#1096;&#1080;&#1073;&#1082;&#1080;">&#182;</a></h2><p>unittest поддерживает пропуск отдельных тестов, а также классов тестов. Вдобавок, поддерживается пометка теста как "не работает, но так и надо".</p>
+<p>Пропуск теста осуществляется использованием декоратора <strong>skip()</strong> или одного из его условных вариантов.</p>
 
 </div>
 </div>
@@ -13913,412 +13706,30 @@ vector ~ False
 <div class="prompt input_prompt">In&nbsp;[23]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">VectorWithAllAttributes</span><span class="p">(</span><span class="n">VectorIterable</span><span class="p">):</span>
-    <span class="k">def</span> <span class="nf">__getattr__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">attr_name</span><span class="p">):</span>
-        <span class="k">return</span> <span class="s2">&quot;value of </span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">attr_name</span><span class="p">)</span>
-    
-    <span class="k">def</span> <span class="nf">__setattr__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">attr_name</span><span class="p">,</span> <span class="n">attr_value</span><span class="p">):</span>
-        <span class="k">if</span> <span class="n">attr_name</span> <span class="ow">not</span> <span class="ow">in</span> <span class="p">(</span><span class="s1">&#39;_x&#39;</span><span class="p">,</span> <span class="s1">&#39;_y&#39;</span><span class="p">,</span> <span class="s1">&#39;_color&#39;</span><span class="p">):</span>
-            <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s1">&#39;you shall not add new attributes here, young padawan!&#39;</span><span class="p">)</span>
-        <span class="k">else</span><span class="p">:</span>
-            <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__setattr__</span><span class="p">(</span><span class="n">attr_name</span><span class="p">,</span> <span class="n">attr_value</span><span class="p">)</span>
-            
-    <span class="k">def</span> <span class="nf">__delattr__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">attr_name</span><span class="p">):</span>
-        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Heh, you can delete nothing&#39;</span><span class="p">)</span>
-</pre></div>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">__version__</span> <span class="o">=</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">9</span><span class="p">)</span>
+<span class="n">platform</span> <span class="o">=</span> <span class="s2">&quot;ubuntu&quot;</span>
 
-    </div>
-</div>
-</div>
 
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[24]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">vector</span> <span class="o">=</span> <span class="n">VectorWithAllAttributes</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="s1">&#39;violet&#39;</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="nb">dir</span><span class="p">(</span><span class="n">vector</span><span class="p">))</span>
-</pre></div>
+<span class="k">class</span> <span class="nc">MyTestCase</span><span class="p">(</span><span class="n">unittest</span><span class="o">.</span><span class="n">TestCase</span><span class="p">):</span>
 
-    </div>
-</div>
-</div>
+    <span class="nd">@unittest</span><span class="o">.</span><span class="n">skip</span><span class="p">(</span><span class="s2">&quot;demonstrating skipping&quot;</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">test_nothing</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">fail</span><span class="p">(</span><span class="s2">&quot;shouldn&#39;t happen&quot;</span><span class="p">)</span>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>initializing a vector
-[&#39;__abs__&#39;, &#39;__add__&#39;, &#39;__bool__&#39;, &#39;__class__&#39;, &#39;__delattr__&#39;, &#39;__dict__&#39;, &#39;__dir__&#39;, &#39;__doc__&#39;, &#39;__eq__&#39;, &#39;__float__&#39;, &#39;__format__&#39;, &#39;__ge__&#39;, &#39;__getattr__&#39;, &#39;__getattribute__&#39;, &#39;__getitem__&#39;, &#39;__gt__&#39;, &#39;__hash__&#39;, &#39;__init__&#39;, &#39;__int__&#39;, &#39;__le__&#39;, &#39;__len__&#39;, &#39;__lt__&#39;, &#39;__module__&#39;, &#39;__ne__&#39;, &#39;__new__&#39;, &#39;__reduce__&#39;, &#39;__reduce_ex__&#39;, &#39;__repr__&#39;, &#39;__reversed__&#39;, &#39;__setattr__&#39;, &#39;__sizeof__&#39;, &#39;__str__&#39;, &#39;__sub__&#39;, &#39;__subclasshook__&#39;, &#39;__weakref__&#39;, &#39;_color&#39;, &#39;_x&#39;, &#39;_y&#39;, &#39;get_x&#39;, &#39;get_y&#39;]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[25]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">vector</span><span class="o">.</span><span class="n">some_attribute</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">vector</span><span class="o">.</span><span class="n">_color</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">vector</span><span class="o">.</span><span class="n">get_x</span><span class="p">())</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>value of some_attribute
-violet
-1
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[26]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">vector</span><span class="o">.</span><span class="n">new_attribute</span> <span class="o">=</span> <span class="s2">&quot;value&quot;</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
-<span class="ansi-red-fg">Exception</span>                                 Traceback (most recent call last)
-<span class="ansi-green-fg">&lt;ipython-input-26-a8bc51e74a96&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span><span class="ansi-blue-fg">()</span>
-<span class="ansi-green-fg">----&gt; 1</span><span class="ansi-red-fg"> </span>vector<span class="ansi-blue-fg">.</span>new_attribute <span class="ansi-blue-fg">=</span> <span class="ansi-blue-fg">&#34;value&#34;</span>
-
-<span class="ansi-green-fg">&lt;ipython-input-23-9adc18b5ed98&gt;</span> in <span class="ansi-cyan-fg">__setattr__</span><span class="ansi-blue-fg">(self, attr_name, attr_value)</span>
-<span class="ansi-green-intense-fg ansi-bold">      5</span>     <span class="ansi-green-fg">def</span> __setattr__<span class="ansi-blue-fg">(</span>self<span class="ansi-blue-fg">,</span> attr_name<span class="ansi-blue-fg">,</span> attr_value<span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">:</span>
-<span class="ansi-green-intense-fg ansi-bold">      6</span>         <span class="ansi-green-fg">if</span> attr_name <span class="ansi-green-fg">not</span> <span class="ansi-green-fg">in</span> <span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">&#39;_x&#39;</span><span class="ansi-blue-fg">,</span> <span class="ansi-blue-fg">&#39;_y&#39;</span><span class="ansi-blue-fg">,</span> <span class="ansi-blue-fg">&#39;_color&#39;</span><span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">:</span>
-<span class="ansi-green-fg">----&gt; 7</span><span class="ansi-red-fg">             </span><span class="ansi-green-fg">raise</span> Exception<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">&#39;you shall not add new attributes here, young padawan!&#39;</span><span class="ansi-blue-fg">)</span>
-<span class="ansi-green-intense-fg ansi-bold">      8</span>         <span class="ansi-green-fg">else</span><span class="ansi-blue-fg">:</span>
-<span class="ansi-green-intense-fg ansi-bold">      9</span>             super<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">.</span>__setattr__<span class="ansi-blue-fg">(</span>attr_name<span class="ansi-blue-fg">,</span> attr_value<span class="ansi-blue-fg">)</span>
-
-<span class="ansi-red-fg">Exception</span>: you shall not add new attributes here, young padawan!</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[27]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">del</span> <span class="n">vector</span><span class="o">.</span><span class="n">_color</span>
-<span class="nb">delattr</span><span class="p">(</span><span class="n">vector</span><span class="p">,</span> <span class="s1">&#39;_color&#39;</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">vector</span><span class="o">.</span><span class="n">_color</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Heh, you can delete nothing
-Heh, you can delete nothing
-violet
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="__getattr__-vs.-__getattribute__"><code>__getattr__ vs. __getattribute__</code><a class="anchor-link" href="#__getattr__-vs.-__getattribute__">&#182;</a></h3>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[28]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">GetAttr</span><span class="p">:</span>
-    <span class="n">attr1</span> <span class="o">=</span> <span class="mi">1</span>
-    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">attr2</span> <span class="o">=</span> <span class="mi">2</span>
-    <span class="k">def</span> <span class="nf">__getattr__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">attr</span><span class="p">):</span>   <span class="c1"># Только для неопределенных атрибутов</span>
-        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;get: &#39;</span> <span class="o">+</span> <span class="n">attr</span><span class="p">)</span>      <span class="c1"># Не attr1: наследуется от класса</span>
-        <span class="k">return</span> <span class="mi">3</span>                   <span class="c1"># Не attr2: хранится в экземпляре</span>
-    
-
-<span class="k">class</span> <span class="nc">GetAttribute</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
-    <span class="n">attr1</span> <span class="o">=</span> <span class="mi">1</span>
-    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">attr2</span> <span class="o">=</span> <span class="mi">2</span>
-    <span class="k">def</span> <span class="nf">__getattribute__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">attr</span><span class="p">):</span>  <span class="c1"># Вызывается всеми операциями присваивания</span>
-        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;get: &#39;</span> <span class="o">+</span> <span class="n">attr</span><span class="p">)</span>          <span class="c1"># Для предотвращения зацикливания используется суперкласс</span>
-        <span class="k">if</span> <span class="n">attr</span> <span class="o">==</span> <span class="s1">&#39;attr3&#39;</span><span class="p">:</span>
-            <span class="k">return</span> <span class="mi">3</span>
-        <span class="k">else</span><span class="p">:</span>
-            <span class="k">return</span> <span class="nb">object</span><span class="o">.</span><span class="fm">__getattribute__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">attr</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[29]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">X</span> <span class="o">=</span> <span class="n">GetAttr</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">X</span><span class="o">.</span><span class="n">attr1</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">X</span><span class="o">.</span><span class="n">attr2</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">X</span><span class="o">.</span><span class="n">attr3</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;-&#39;</span> <span class="o">*</span> <span class="mi">40</span><span class="p">)</span>        
-<span class="n">X</span> <span class="o">=</span> <span class="n">GetAttribute</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">X</span><span class="o">.</span><span class="n">attr1</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">X</span><span class="o">.</span><span class="n">attr2</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">X</span><span class="o">.</span><span class="n">attr3</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>1
-2
-get: attr3
-3
-----------------------------------------
-get: attr1
-1
-get: attr2
-2
-get: attr3
-3
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="&#1050;&#1086;&#1085;&#1090;&#1077;&#1082;&#1089;&#1090;&#1099;">&#1050;&#1086;&#1085;&#1090;&#1077;&#1082;&#1089;&#1090;&#1099;<a class="anchor-link" href="#&#1050;&#1086;&#1085;&#1090;&#1077;&#1082;&#1089;&#1090;&#1099;">&#182;</a></h2>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[30]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">VectorWithContextManager</span><span class="p">(</span><span class="n">VectorWithAllAttributes</span><span class="p">):</span>
-    <span class="k">def</span> <span class="nf">__enter__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;entering context&#39;</span><span class="p">)</span>
-    <span class="k">def</span> <span class="nf">__exit__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">):</span>
-        <span class="nb">print</span><span class="p">(</span><span class="n">args</span><span class="p">)</span>
-        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;leaving context&#39;</span><span class="p">)</span>
-        <span class="c1">#return False # -- бросаем ошибку дальше</span>
-        <span class="k">return</span> <span class="kc">True</span>  <span class="c1"># -- НЕ бросаем ошибку дальше</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[31]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">try</span><span class="p">:</span>
-    <span class="k">with</span> <span class="n">VectorWithContextManager</span><span class="p">()</span> <span class="k">as</span> <span class="n">vec</span><span class="p">:</span>
-        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">3</span><span class="p">):</span>
-            <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
-        <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s1">&#39;something happened inside!&#39;</span><span class="p">)</span>
-<span class="k">except</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;an exception was raised...&#39;</span><span class="p">)</span>
-    <span class="k">pass</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;we are out of the context&#39;</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>initializing a vector
-entering context
-0
-1
-2
-(&lt;class &#39;Exception&#39;&gt;, Exception(&#39;something happened inside!&#39;,), &lt;traceback object at 0x7ff9fc817548&gt;)
-leaving context
-we are out of the context
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Но можно и проще!</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[33]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">contextlib</span> <span class="k">import</span> <span class="n">contextmanager</span>
-
-<span class="nd">@contextmanager</span>
-<span class="k">def</span> <span class="nf">vector_mgr</span><span class="p">():</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;handling entering the context&#39;</span><span class="p">)</span>
-    <span class="k">yield</span> <span class="n">Vector</span><span class="p">()</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;handling leaving the context&#39;</span><span class="p">)</span>
-          
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;statement before context&#39;</span><span class="p">)</span>
-<span class="k">with</span> <span class="n">vector_mgr</span><span class="p">()</span> <span class="k">as</span> <span class="n">vector</span><span class="p">:</span>
-    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">3</span><span class="p">):</span>
-        <span class="nb">print</span><span class="p">(</span><span class="n">vector</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;statement after context&#39;</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>statement before context
-handling entering the context
-initializing a vector
-&lt;__main__.Vector object at 0x7ff9fc825f28&gt;
-&lt;__main__.Vector object at 0x7ff9fc825f28&gt;
-&lt;__main__.Vector object at 0x7ff9fc825f28&gt;
-handling leaving the context
-statement after context
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[35]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># А теперь с ошибкой:</span>
-
-<span class="nd">@contextmanager</span>
-<span class="k">def</span> <span class="nf">vector_mgr</span><span class="p">():</span>
-    <span class="k">try</span><span class="p">:</span>
-        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;handling entering the context&#39;</span><span class="p">)</span>
-        <span class="k">yield</span> <span class="n">Vector</span><span class="p">()</span>
-    <span class="k">except</span> <span class="ne">ZeroDivisionError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+    <span class="nd">@unittest</span><span class="o">.</span><span class="n">skipIf</span><span class="p">(</span><span class="n">__version__</span> <span class="o">&lt;</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">),</span>
+                     <span class="s2">&quot;not supported in this library version&quot;</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">test_format</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="c1"># Tests that work for only a certain version of the library.</span>
         <span class="k">pass</span>
-    <span class="k">finally</span><span class="p">:</span>
-        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;handling leaving the context&#39;</span><span class="p">)</span>
-          
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;statement before context&#39;</span><span class="p">)</span>
-<span class="k">with</span> <span class="n">vector_mgr</span><span class="p">()</span> <span class="k">as</span> <span class="n">vector</span><span class="p">:</span>
-    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">3</span><span class="p">):</span>
-        <span class="nb">print</span><span class="p">(</span><span class="n">vector</span><span class="p">)</span>
-        <span class="n">infin</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">/</span> <span class="mi">0</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;statement after context&#39;</span><span class="p">)</span>
+
+    <span class="nd">@unittest</span><span class="o">.</span><span class="n">skipUnless</span><span class="p">(</span><span class="n">platform</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;win&quot;</span><span class="p">),</span> <span class="s2">&quot;requires Windows&quot;</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">test_windows_support</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="c1"># windows specific testing code</span>
+        <span class="k">pass</span>
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
+
+    <span class="n">unittest</span><span class="o">.</span><span class="n">main</span><span class="p">(</span><span class="n">argv</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;&#39;</span><span class="p">,</span><span class="s1">&#39;-v&#39;</span><span class="p">],</span> <span class="n">defaultTest</span><span class="o">=</span><span class="s1">&#39;MyTestCase&#39;</span><span class="p">,</span> <span class="n">exit</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -14328,118 +13739,6 @@ statement after context
 <div class="output_wrapper">
 <div class="output">
 
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>statement before context
-handling entering the context
-initializing a vector
-&lt;__main__.Vector object at 0x7ff9fc825198&gt;
-handling leaving the context
-statement after context
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="&#1057;&#1086;&#1079;&#1076;&#1072;&#1085;&#1080;&#1077;-&#1080;-&#1091;&#1076;&#1072;&#1083;&#1077;&#1085;&#1080;&#1077;-&#1086;&#1073;&#1098;&#1077;&#1082;&#1090;&#1086;&#1074;">&#1057;&#1086;&#1079;&#1076;&#1072;&#1085;&#1080;&#1077; &#1080; &#1091;&#1076;&#1072;&#1083;&#1077;&#1085;&#1080;&#1077; &#1086;&#1073;&#1098;&#1077;&#1082;&#1090;&#1086;&#1074;<a class="anchor-link" href="#&#1057;&#1086;&#1079;&#1076;&#1072;&#1085;&#1080;&#1077;-&#1080;-&#1091;&#1076;&#1072;&#1083;&#1077;&#1085;&#1080;&#1077;-&#1086;&#1073;&#1098;&#1077;&#1082;&#1090;&#1086;&#1074;">&#182;</a></h2>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[53]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">VectorInitialized</span><span class="p">(</span><span class="n">VectorWithContextManager</span><span class="p">):</span>
-    <span class="k">def</span> <span class="nf">__new__</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
-        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;invoking __new__ method&#39;</span><span class="p">)</span>
-        <span class="nb">print</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">args</span><span class="p">,</span> <span class="n">kwargs</span><span class="p">)</span>
-        <span class="nb">print</span><span class="p">(</span><span class="nb">object</span><span class="p">)</span>
-        <span class="k">return</span> <span class="nb">object</span><span class="o">.</span><span class="fm">__new__</span><span class="p">(</span><span class="bp">cls</span><span class="p">)</span>
-    
-    <span class="k">def</span> <span class="nf">__del__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;deleting an object&#39;</span><span class="p">)</span>
-        <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s2">&quot;exception while destructing&quot;</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[55]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">vect</span> <span class="o">=</span> <span class="n">VectorInitialized</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;navy blue&#39;</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">vect</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>invoking __new__ method
-&lt;class &#39;__main__.VectorInitialized&#39;&gt; (1, 2) {&#39;color&#39;: &#39;navy blue&#39;}
-&lt;class &#39;object&#39;&gt;
-initializing a vector
-vector (1, 2) of color navy blue
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[56]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">del</span> <span class="n">vect</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>deleting an object
-</pre>
-</div>
-</div>
 
 <div class="output_area">
 
@@ -14447,10 +13746,14 @@ vector (1, 2) of color navy blue
 
 
 <div class="output_subarea output_stream output_stderr output_text">
-<pre>Exception ignored in: &lt;bound method VectorInitialized.__del__ of vector representation (x: 1, y: 2, color: navy blue)&gt;
-Traceback (most recent call last):
-  File &#34;&lt;ipython-input-53-5f10ace92282&gt;&#34;, line 10, in __del__
-Exception: exception while destructing
+<pre>test_format (__main__.MyTestCase) ... skipped &#39;not supported in this library version&#39;
+test_nothing (__main__.MyTestCase) ... skipped &#39;demonstrating skipping&#39;
+test_windows_support (__main__.MyTestCase) ... skipped &#39;requires Windows&#39;
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.006s
+
+OK (skipped=3)
 </pre>
 </div>
 </div>
@@ -14462,52 +13765,23 @@ Exception: exception while destructing
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="&#1059;&#1087;&#1088;&#1072;&#1078;&#1085;&#1077;&#1085;&#1080;&#1077;!">&#1059;&#1087;&#1088;&#1072;&#1078;&#1085;&#1077;&#1085;&#1080;&#1077;!<a class="anchor-link" href="#&#1059;&#1087;&#1088;&#1072;&#1078;&#1085;&#1077;&#1085;&#1080;&#1077;!">&#182;</a></h3><p>Как с помощью метода <code>__new__</code> сделать класс "синглтоном" -- объектом, который создается один раз, а при попытке повторного создания возвращается уже готовый объект?</p>
-
+<h4 id="&#1050;&#1083;&#1072;&#1089;&#1089;&#1099;-&#1090;&#1072;&#1082;&#1078;&#1077;-&#1084;&#1086;&#1075;&#1091;&#1090;-&#1073;&#1099;&#1090;&#1100;-&#1087;&#1088;&#1086;&#1087;&#1091;&#1097;&#1077;&#1085;&#1099;:">&#1050;&#1083;&#1072;&#1089;&#1089;&#1099; &#1090;&#1072;&#1082;&#1078;&#1077; &#1084;&#1086;&#1075;&#1091;&#1090; &#1073;&#1099;&#1090;&#1100; &#1087;&#1088;&#1086;&#1087;&#1091;&#1097;&#1077;&#1085;&#1099;:<a class="anchor-link" href="#&#1050;&#1083;&#1072;&#1089;&#1089;&#1099;-&#1090;&#1072;&#1082;&#1078;&#1077;-&#1084;&#1086;&#1075;&#1091;&#1090;-&#1073;&#1099;&#1090;&#1100;-&#1087;&#1088;&#1086;&#1087;&#1091;&#1097;&#1077;&#1085;&#1099;:">&#182;</a></h4>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[61]:</div>
+<div class="prompt input_prompt">In&nbsp;[24]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">SingletonClass</span><span class="p">:</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nd">@unittest</span><span class="o">.</span><span class="n">skip</span><span class="p">(</span><span class="s2">&quot;showing class skipping&quot;</span><span class="p">)</span>
+<span class="k">class</span> <span class="nc">MySkippedTestCase</span><span class="p">(</span><span class="n">unittest</span><span class="o">.</span><span class="n">TestCase</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">test_not_run</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">pass</span>
     
-    <span class="c1">#...your code here...</span>
-    
-    <span class="k">def</span> <span class="nf">__new__</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
 
-        <span class="c1">#...your code here...</span>
-
-<span class="n">obj1</span> <span class="o">=</span> <span class="n">SingletonClass</span><span class="p">()</span>
-<span class="n">obj2</span> <span class="o">=</span> <span class="n">SingletonClass</span><span class="p">()</span>
-<span class="k">assert</span> <span class="nb">id</span><span class="p">(</span><span class="n">obj1</span><span class="p">)</span> <span class="o">==</span> <span class="nb">id</span><span class="p">(</span><span class="n">obj2</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Function-annotations---https://www.python.org/dev/peps/pep-3107/">Function annotations - <a href="https://www.python.org/dev/peps/pep-3107/">https://www.python.org/dev/peps/pep-3107/</a><a class="anchor-link" href="#Function-annotations---https://www.python.org/dev/peps/pep-3107/">&#182;</a></h3>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[65]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">Sum</span><span class="p">(</span><span class="n">x</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span> <span class="n">y</span><span class="p">:</span> <span class="s1">&#39;слагаемое 2&#39;</span><span class="p">,</span> <span class="n">z</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">max</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">9</span><span class="p">):</span>
-    <span class="s2">&quot;returns x + y + z&quot;</span>
-    <span class="k">return</span> <span class="n">x</span> <span class="o">+</span> <span class="n">y</span> <span class="o">+</span> <span class="n">z</span>
-<span class="n">help</span><span class="p">(</span><span class="n">Sum</span><span class="p">)</span>
-
-<span class="n">Sum</span><span class="p">(</span><span class="s1">&#39;for &#39;</span><span class="p">,</span><span class="s1">&#39;reading &#39;</span><span class="p">,</span><span class="s1">&#39;only&#39;</span><span class="p">)</span>
+    <span class="n">unittest</span><span class="o">.</span><span class="n">main</span><span class="p">(</span><span class="n">argv</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;&#39;</span><span class="p">,</span><span class="s1">&#39;-v&#39;</span><span class="p">],</span> <span class="n">defaultTest</span><span class="o">=</span><span class="s1">&#39;MySkippedTestCase&#39;</span><span class="p">,</span> <span class="n">exit</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -14523,25 +13797,243 @@ Exception: exception while destructing
     <div class="prompt"></div>
 
 
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Help on function Sum in module __main__:
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>test_not_run (__main__.MySkippedTestCase) ... skipped &#39;showing class skipping&#39;
 
-Sum(x:10, y:&#39;слагаемое 2&#39;, z:int=0) -&gt; 9
-    returns x + y + z
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
 
+OK (skipped=1)
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="&#1054;&#1078;&#1080;&#1076;&#1072;&#1077;&#1084;&#1099;&#1077;-&#1086;&#1096;&#1080;&#1073;&#1082;&#1080;-&#1080;&#1089;&#1087;&#1086;&#1083;&#1100;&#1079;&#1091;&#1102;&#1090;-&#1076;&#1077;&#1082;&#1086;&#1088;&#1072;&#1090;&#1086;&#1088;-expectedFailure():">&#1054;&#1078;&#1080;&#1076;&#1072;&#1077;&#1084;&#1099;&#1077; &#1086;&#1096;&#1080;&#1073;&#1082;&#1080; &#1080;&#1089;&#1087;&#1086;&#1083;&#1100;&#1079;&#1091;&#1102;&#1090; &#1076;&#1077;&#1082;&#1086;&#1088;&#1072;&#1090;&#1086;&#1088; expectedFailure():<a class="anchor-link" href="#&#1054;&#1078;&#1080;&#1076;&#1072;&#1077;&#1084;&#1099;&#1077;-&#1086;&#1096;&#1080;&#1073;&#1082;&#1080;-&#1080;&#1089;&#1087;&#1086;&#1083;&#1100;&#1079;&#1091;&#1102;&#1090;-&#1076;&#1077;&#1082;&#1086;&#1088;&#1072;&#1090;&#1086;&#1088;-expectedFailure():">&#182;</a></h4>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[27]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">ExpectedFailureTestCase</span><span class="p">(</span><span class="n">unittest</span><span class="o">.</span><span class="n">TestCase</span><span class="p">):</span>
+    <span class="nd">@unittest</span><span class="o">.</span><span class="n">expectedFailure</span>
+    <span class="k">def</span> <span class="nf">test_fail</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="s2">&quot;broken&quot;</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
+
+    <span class="n">unittest</span><span class="o">.</span><span class="n">main</span><span class="p">(</span><span class="n">argv</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;&#39;</span><span class="p">,</span><span class="s1">&#39;-v&#39;</span><span class="p">],</span> <span class="n">defaultTest</span><span class="o">=</span><span class="s1">&#39;ExpectedFailureTestCase&#39;</span><span class="p">,</span> <span class="n">exit</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>        
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>test_fail (__main__.ExpectedFailureTestCase) ... expected failure
+
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+OK (expected failures=1)
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="&#1054;&#1095;&#1077;&#1085;&#1100;-&#1087;&#1088;&#1086;&#1089;&#1090;&#1086;-&#1089;&#1076;&#1077;&#1083;&#1072;&#1090;&#1100;-&#1089;&#1074;&#1086;&#1081;-&#1076;&#1077;&#1082;&#1086;&#1088;&#1072;&#1090;&#1086;&#1088;.-&#1053;&#1072;&#1087;&#1088;&#1080;&#1084;&#1077;&#1088;,-&#1089;&#1083;&#1077;&#1076;&#1091;&#1102;&#1097;&#1080;&#1081;-&#1076;&#1077;&#1082;&#1086;&#1088;&#1072;&#1090;&#1086;&#1088;-&#1087;&#1088;&#1086;&#1087;&#1091;&#1089;&#1082;&#1072;&#1077;&#1090;-&#1090;&#1077;&#1089;&#1090;,-&#1077;&#1089;&#1083;&#1080;-&#1087;&#1077;&#1088;&#1077;&#1076;&#1072;&#1085;&#1085;&#1099;&#1081;-&#1086;&#1073;&#1098;&#1077;&#1082;&#1090;-&#1085;&#1077;-&#1080;&#1084;&#1077;&#1077;&#1090;-&#1091;&#1082;&#1072;&#1079;&#1072;&#1085;&#1085;&#1086;&#1075;&#1086;-&#1072;&#1090;&#1088;&#1080;&#1073;&#1091;&#1090;&#1072;.">&#1054;&#1095;&#1077;&#1085;&#1100; &#1087;&#1088;&#1086;&#1089;&#1090;&#1086; &#1089;&#1076;&#1077;&#1083;&#1072;&#1090;&#1100; &#1089;&#1074;&#1086;&#1081; &#1076;&#1077;&#1082;&#1086;&#1088;&#1072;&#1090;&#1086;&#1088;. &#1053;&#1072;&#1087;&#1088;&#1080;&#1084;&#1077;&#1088;, &#1089;&#1083;&#1077;&#1076;&#1091;&#1102;&#1097;&#1080;&#1081; &#1076;&#1077;&#1082;&#1086;&#1088;&#1072;&#1090;&#1086;&#1088; &#1087;&#1088;&#1086;&#1087;&#1091;&#1089;&#1082;&#1072;&#1077;&#1090; &#1090;&#1077;&#1089;&#1090;, &#1077;&#1089;&#1083;&#1080; &#1087;&#1077;&#1088;&#1077;&#1076;&#1072;&#1085;&#1085;&#1099;&#1081; &#1086;&#1073;&#1098;&#1077;&#1082;&#1090; &#1085;&#1077; &#1080;&#1084;&#1077;&#1077;&#1090; &#1091;&#1082;&#1072;&#1079;&#1072;&#1085;&#1085;&#1086;&#1075;&#1086; &#1072;&#1090;&#1088;&#1080;&#1073;&#1091;&#1090;&#1072;.<a class="anchor-link" href="#&#1054;&#1095;&#1077;&#1085;&#1100;-&#1087;&#1088;&#1086;&#1089;&#1090;&#1086;-&#1089;&#1076;&#1077;&#1083;&#1072;&#1090;&#1100;-&#1089;&#1074;&#1086;&#1081;-&#1076;&#1077;&#1082;&#1086;&#1088;&#1072;&#1090;&#1086;&#1088;.-&#1053;&#1072;&#1087;&#1088;&#1080;&#1084;&#1077;&#1088;,-&#1089;&#1083;&#1077;&#1076;&#1091;&#1102;&#1097;&#1080;&#1081;-&#1076;&#1077;&#1082;&#1086;&#1088;&#1072;&#1090;&#1086;&#1088;-&#1087;&#1088;&#1086;&#1087;&#1091;&#1089;&#1082;&#1072;&#1077;&#1090;-&#1090;&#1077;&#1089;&#1090;,-&#1077;&#1089;&#1083;&#1080;-&#1087;&#1077;&#1088;&#1077;&#1076;&#1072;&#1085;&#1085;&#1099;&#1081;-&#1086;&#1073;&#1098;&#1077;&#1082;&#1090;-&#1085;&#1077;-&#1080;&#1084;&#1077;&#1077;&#1090;-&#1091;&#1082;&#1072;&#1079;&#1072;&#1085;&#1085;&#1086;&#1075;&#1086;-&#1072;&#1090;&#1088;&#1080;&#1073;&#1091;&#1090;&#1072;.">&#182;</a></h4><p>Для пропущенных тестов не запускаются setUp() и tearDown(). Для пропущенных классов не запускаются setUpClass() и tearDownClass(). Для пропущенных модулей не запускаются setUpModule() и tearDownModule().</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[54]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">obj1</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span>
+
+
+<span class="k">def</span> <span class="nf">skipUnlessHasattr</span><span class="p">(</span><span class="n">obj</span><span class="p">,</span> <span class="n">attr</span><span class="p">):</span>
+    <span class="k">if</span> <span class="nb">hasattr</span><span class="p">(</span><span class="n">obj</span><span class="p">,</span> <span class="n">attr</span><span class="p">):</span>
+        <span class="k">return</span> <span class="k">lambda</span> <span class="n">func</span><span class="p">:</span> <span class="n">func</span>
+    <span class="k">return</span> <span class="n">unittest</span><span class="o">.</span><span class="n">skip</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">{!r}</span><span class="s2"> doesn&#39;t have </span><span class="si">{!r}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">obj</span><span class="p">,</span> <span class="n">attr</span><span class="p">))</span>
+
+
+<span class="k">class</span> <span class="nc">YetAnotherTestCase</span><span class="p">(</span><span class="n">unittest</span><span class="o">.</span><span class="n">TestCase</span><span class="p">):</span>
+    <span class="nd">@skipUnlessHasattr</span><span class="p">(</span><span class="n">obj1</span><span class="p">,</span><span class="s1">&#39;add&#39;</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">test_fail</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">pass</span>
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
+
+    <span class="n">unittest</span><span class="o">.</span><span class="n">main</span><span class="p">(</span><span class="n">argv</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;&#39;</span><span class="p">,</span><span class="s1">&#39;-v&#39;</span><span class="p">],</span> <span class="n">defaultTest</span><span class="o">=</span><span class="s1">&#39;YetAnotherTestCase&#39;</span><span class="p">,</span> <span class="n">exit</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>        
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>test_fail (__main__.YetAnotherTestCase) ... skipped &#34;[1, 2, 3] doesn&#39;t have &#39;add&#39;&#34;
+
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+OK (skipped=1)
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="&#1069;&#1081;,-&#1072;-&#1095;&#1090;&#1086;-&#1077;&#1097;&#1105;-&#1079;&#1072;-setUpClass()-&#1080;-setUpModule()-??">&#1069;&#1081;, &#1072; &#1095;&#1090;&#1086; &#1077;&#1097;&#1105; &#1079;&#1072; setUpClass() &#1080; setUpModule() ??<a class="anchor-link" href="#&#1069;&#1081;,-&#1072;-&#1095;&#1090;&#1086;-&#1077;&#1097;&#1105;-&#1079;&#1072;-setUpClass()-&#1080;-setUpModule()-??">&#182;</a></h4>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">unittest</span>
+
+<span class="k">class</span> <span class="nc">Test</span><span class="p">(</span><span class="n">unittest</span><span class="o">.</span><span class="n">TestCase</span><span class="p">):</span>
+    <span class="nd">@classmethod</span>
+    <span class="k">def</span> <span class="nf">setUpClass</span><span class="p">(</span><span class="bp">cls</span><span class="p">):</span>
+        <span class="bp">cls</span><span class="o">.</span><span class="n">_connection</span> <span class="o">=</span> <span class="n">createExpensiveConnectionObject</span><span class="p">()</span>
+
+    <span class="nd">@classmethod</span>
+    <span class="k">def</span> <span class="nf">tearDownClass</span><span class="p">(</span><span class="bp">cls</span><span class="p">):</span>
+        <span class="bp">cls</span><span class="o">.</span><span class="n">_connection</span><span class="o">.</span><span class="n">destroy</span><span class="p">()</span>
+        
+
+<span class="c1">#These should be implemented as functions:</span>
+
+<span class="k">def</span> <span class="nf">setUpModule</span><span class="p">():</span>
+    <span class="n">createConnection</span><span class="p">()</span>
+
+<span class="k">def</span> <span class="nf">tearDownModule</span><span class="p">():</span>
+    <span class="n">closeConnection</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="&#1056;&#1072;&#1079;&#1083;&#1080;&#1095;&#1077;&#1085;&#1080;&#1077;-&#1080;&#1090;&#1077;&#1088;&#1072;&#1094;&#1080;&#1081;-&#1090;&#1077;&#1089;&#1090;&#1072;-&#1089;-&#1087;&#1086;&#1084;&#1086;&#1097;&#1100;&#1102;-&#1087;&#1086;&#1076;&#1090;&#1077;&#1089;&#1090;&#1086;&#1074;">&#1056;&#1072;&#1079;&#1083;&#1080;&#1095;&#1077;&#1085;&#1080;&#1077; &#1080;&#1090;&#1077;&#1088;&#1072;&#1094;&#1080;&#1081; &#1090;&#1077;&#1089;&#1090;&#1072; &#1089; &#1087;&#1086;&#1084;&#1086;&#1097;&#1100;&#1102; &#1087;&#1086;&#1076;&#1090;&#1077;&#1089;&#1090;&#1086;&#1074;<a class="anchor-link" href="#&#1056;&#1072;&#1079;&#1083;&#1080;&#1095;&#1077;&#1085;&#1080;&#1077;-&#1080;&#1090;&#1077;&#1088;&#1072;&#1094;&#1080;&#1081;-&#1090;&#1077;&#1089;&#1090;&#1072;-&#1089;-&#1087;&#1086;&#1084;&#1086;&#1097;&#1100;&#1102;-&#1087;&#1086;&#1076;&#1090;&#1077;&#1089;&#1090;&#1086;&#1074;">&#182;</a></h4><p>Когда некоторые тесты имеют лишь незначительные отличия, например некоторые параметры, unittest позволяет различать их внутри одного тестового метода, используя менеджер контекста <strong>subTest()</strong>.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[39]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">NumbersTest</span><span class="p">(</span><span class="n">unittest</span><span class="o">.</span><span class="n">TestCase</span><span class="p">):</span>
+
+    <span class="k">def</span> <span class="nf">test_even</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Test that numbers between 0 and 3 are all even.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">4</span><span class="p">):</span>
+            <span class="k">with</span> <span class="bp">self</span><span class="o">.</span><span class="n">subTest</span><span class="p">(</span><span class="n">i</span><span class="o">=</span><span class="n">i</span><span class="p">):</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="n">i</span> <span class="o">%</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+                
+<span class="n">unittest</span><span class="o">.</span><span class="n">main</span><span class="p">(</span><span class="n">argv</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;&#39;</span><span class="p">,</span><span class="s1">&#39;-v&#39;</span><span class="p">],</span> <span class="n">defaultTest</span><span class="o">=</span><span class="s1">&#39;NumbersTest&#39;</span><span class="p">,</span> <span class="n">exit</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>           
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>test_even (__main__.NumbersTest) ... 
+======================================================================
+FAIL: test_even (__main__.NumbersTest) (i=1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File &#34;&lt;ipython-input-39-0d05ee664451&gt;&#34;, line 9, in test_even
+    self.assertEqual(i % 2, 0)
+AssertionError: 1 != 0
+
+======================================================================
+FAIL: test_even (__main__.NumbersTest) (i=3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File &#34;&lt;ipython-input-39-0d05ee664451&gt;&#34;, line 9, in test_even
+    self.assertEqual(i % 2, 0)
+AssertionError: 1 != 0
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (failures=2)
 </pre>
 </div>
 </div>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[65]:</div>
+    <div class="prompt output_prompt">Out[39]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&#39;for reading only&#39;</pre>
+<pre>&lt;unittest.main.TestProgram at 0x7fe2d40cd978&gt;</pre>
 </div>
 
 </div>
@@ -14553,9 +14045,313 @@ Sum(x:10, y:&#39;слагаемое 2&#39;, z:int=0) -&gt; 9
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="&#1077;&#1097;&#1105;-&#1088;&#1072;&#1079;-&#1087;&#1088;&#1086;-&#1084;&#1086;&#1076;&#1091;&#1083;&#1080;---https://docs.python.org/3/tutorial/modules.html">&#1077;&#1097;&#1105; &#1088;&#1072;&#1079; &#1087;&#1088;&#1086; &#1084;&#1086;&#1076;&#1091;&#1083;&#1080; - <a href="https://docs.python.org/3/tutorial/modules.html">https://docs.python.org/3/tutorial/modules.html</a><a class="anchor-link" href="#&#1077;&#1097;&#1105;-&#1088;&#1072;&#1079;-&#1087;&#1088;&#1086;-&#1084;&#1086;&#1076;&#1091;&#1083;&#1080;---https://docs.python.org/3/tutorial/modules.html">&#182;</a></h2>
+<h4 id="&#1055;&#1088;&#1086;&#1074;&#1077;&#1088;&#1082;&#1080;-&#1085;&#1072;-&#1091;&#1089;&#1087;&#1077;&#1096;&#1085;&#1086;&#1089;&#1090;&#1100;">&#1055;&#1088;&#1086;&#1074;&#1077;&#1088;&#1082;&#1080; &#1085;&#1072; &#1091;&#1089;&#1087;&#1077;&#1096;&#1085;&#1086;&#1089;&#1090;&#1100;<a class="anchor-link" href="#&#1055;&#1088;&#1086;&#1074;&#1077;&#1088;&#1082;&#1080;-&#1085;&#1072;-&#1091;&#1089;&#1087;&#1077;&#1096;&#1085;&#1086;&#1089;&#1090;&#1100;">&#182;</a></h4><p>Модуль unittest предоставляет множество функций для самых различных проверок:</p>
+
+<pre><code>assertEqual(a, b) — a == b
+
+assertNotEqual(a, b) — a != b
+
+assertTrue(x) — bool(x) is True
+
+assertFalse(x) — bool(x) is False
+
+assertIs(a, b) — a is b
+
+assertIsNot(a, b) — a is not b
+
+assertIsNone(x) — x is None
+
+assertIsNotNone(x) — x is not None
+
+assertIn(a, b) — a in b
+
+assertNotIn(a, b) — a not in b
+
+assertIsInstance(a, b) — isinstance(a, b)
+
+assertNotIsInstance(a, b) — not isinstance(a, b)
+
+assertRaises(exc, fun, *args, **kwds) — fun(*args, **kwds) порождает исключение exc
+
+assertRaisesRegex(exc, r, fun, *args, **kwds) — fun(*args, **kwds) порождает исключение exc и сообщение соответствует регулярному выражению r
+
+assertWarns(warn, fun, *args, **kwds) — fun(*args, **kwds) порождает предупреждение
+
+assertWarnsRegex(warn, r, fun, *args, **kwds) — fun(*args, **kwds) порождает предупреждение и сообщение соответствует регулярному выражению r
+
+assertAlmostEqual(a, b) — round(a-b, 7) == 0
+
+assertNotAlmostEqual(a, b) — round(a-b, 7) != 0
+
+assertGreater(a, b) — a &gt; b
+
+assertGreaterEqual(a, b) — a &gt;= b
+
+assertLess(a, b) — a &lt; b
+
+assertLessEqual(a, b) — a &lt;= b
+
+assertRegex(s, r) — r.search(s)
+
+assertNotRegex(s, r) — not r.search(s)
+
+assertCountEqual(a, b) — a и b содержат те же элементы в одинаковых количествах, но порядок не важен</code></pre>
+
 </div>
 </div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="&#1045;&#1089;&#1083;&#1080;-&#1084;&#1099;-&#1093;&#1086;&#1090;&#1080;&#1084;-&#1082;&#1072;&#1089;&#1090;&#1086;&#1084;&#1080;&#1079;&#1080;&#1088;&#1086;&#1074;&#1072;&#1090;&#1100;-&#1079;&#1072;&#1087;&#1091;&#1089;&#1082;-&#1080;&#1084;&#1077;&#1102;&#1097;&#1080;&#1093;&#1089;&#1103;-&#1090;&#1077;&#1089;&#1090;&#1086;&#1074;">&#1045;&#1089;&#1083;&#1080; &#1084;&#1099; &#1093;&#1086;&#1090;&#1080;&#1084; &#1082;&#1072;&#1089;&#1090;&#1086;&#1084;&#1080;&#1079;&#1080;&#1088;&#1086;&#1074;&#1072;&#1090;&#1100; &#1079;&#1072;&#1087;&#1091;&#1089;&#1082; &#1080;&#1084;&#1077;&#1102;&#1097;&#1080;&#1093;&#1089;&#1103; &#1090;&#1077;&#1089;&#1090;&#1086;&#1074;<a class="anchor-link" href="#&#1045;&#1089;&#1083;&#1080;-&#1084;&#1099;-&#1093;&#1086;&#1090;&#1080;&#1084;-&#1082;&#1072;&#1089;&#1090;&#1086;&#1084;&#1080;&#1079;&#1080;&#1088;&#1086;&#1074;&#1072;&#1090;&#1100;-&#1079;&#1072;&#1087;&#1091;&#1089;&#1082;-&#1080;&#1084;&#1077;&#1102;&#1097;&#1080;&#1093;&#1089;&#1103;-&#1090;&#1077;&#1089;&#1090;&#1086;&#1074;">&#182;</a></h4>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[58]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">MySuite</span><span class="p">():</span>
+    <span class="n">suite</span> <span class="o">=</span> <span class="n">unittest</span><span class="o">.</span><span class="n">TestSuite</span><span class="p">()</span>
+    <span class="n">suite</span><span class="o">.</span><span class="n">addTest</span><span class="p">(</span><span class="n">SimpleWidgetTestCase</span><span class="p">(</span><span class="s1">&#39;test_default_widget_size&#39;</span><span class="p">))</span>
+    <span class="n">suite</span><span class="o">.</span><span class="n">addTest</span><span class="p">(</span><span class="n">SimpleWidgetTestCase</span><span class="p">(</span><span class="s1">&#39;test_widget_resize&#39;</span><span class="p">))</span>
+    <span class="n">suite</span><span class="o">.</span><span class="n">addTest</span><span class="p">(</span><span class="n">NumbersTest</span><span class="p">(</span><span class="s1">&#39;test_even&#39;</span><span class="p">))</span>
+    <span class="n">suite</span><span class="o">.</span><span class="n">addTest</span><span class="p">(</span><span class="n">YetAnotherTestCase</span><span class="p">(</span><span class="s1">&#39;test_fail&#39;</span><span class="p">))</span>
+    <span class="k">return</span> <span class="n">suite</span>
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
+    <span class="n">runner</span> <span class="o">=</span> <span class="n">unittest</span><span class="o">.</span><span class="n">TextTestRunner</span><span class="p">(</span><span class="n">verbosity</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+    <span class="n">runner</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">MySuite</span><span class="p">())</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>test_default_widget_size (__main__.SimpleWidgetTestCase) ... ok
+test_widget_resize (__main__.SimpleWidgetTestCase) ... ok
+test_even (__main__.NumbersTest) ... test_fail (__main__.YetAnotherTestCase) ... skipped &#34;[1, 2, 3] doesn&#39;t have &#39;add&#39;&#34;
+
+======================================================================
+FAIL: test_even (__main__.NumbersTest) (i=1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File &#34;&lt;ipython-input-39-0d05ee664451&gt;&#34;, line 9, in test_even
+    self.assertEqual(i % 2, 0)
+AssertionError: 1 != 0
+
+======================================================================
+FAIL: test_even (__main__.NumbersTest) (i=3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File &#34;&lt;ipython-input-39-0d05ee664451&gt;&#34;, line 9, in test_even
+    self.assertEqual(i % 2, 0)
+AssertionError: 1 != 0
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.007s
+
+FAILED (failures=2, skipped=1)
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
 </div>
     </div>
   </div>
